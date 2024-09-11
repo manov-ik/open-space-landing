@@ -1,10 +1,10 @@
 import React from "react";
-import navBar from "./components/navbar";
+import NavBar from "./components/navbar";
 
 function App() {
   return (
     <>
-      <navBar />
+      <NavBar />
       <div className="flex">
         <p className="text-3xl m-auto">fgdfgsdfgs </p>
       </div>

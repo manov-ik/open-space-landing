@@ -1,5 +1,6 @@
 import React from "react";
-function navBar() {
+
+function NavBar() {
   return (
     <>
       <div className="flex">
@@ -12,4 +13,4 @@ function navBar() {
   );
 }
 
-export default navBar;
+export default NavBar;
