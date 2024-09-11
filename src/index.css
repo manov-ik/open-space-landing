@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    @apply bg-black;
+    @apply h-[1000px];
+   
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 10s linear infinite;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
