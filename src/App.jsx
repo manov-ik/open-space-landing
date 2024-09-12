@@ -1,17 +1,14 @@
 import React from "react";
-import NavBar from "./components/navbar";
-import Works from "./components/WorksDes";
-import Works2 from "./components/WorksDes2";
+import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./sections/HeroSection/HeroSection";
+import SectionTwo from "./sections/SectionTwo/SectionTwo";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <div className="flex">
-        <p className="text-3xl m-auto">fgdfgsdfgs </p>
-      </div>
-      <Works2 />
-      <Works />
+      <Navbar />
+      <HeroSection />
+      <SectionTwo />
     </>
   );
 }
