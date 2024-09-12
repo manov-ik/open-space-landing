@@ -1,17 +1,23 @@
 import React from "react";
-import NavBar from "./components/navbar";
-import Works from "./components/WorksDes";
-import Works2 from "./components/WorksDes2";
+import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./sections/HeroSection/HeroSection";
+import SectionTwo from "./sections/SectionTwo/SectionTwo";
+import Marquee from "./components/Marquee/Marquee";
+import FabSocial from "./components/FabSocial/FabSocial";
+import Team from "./sections/Team/Team";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <div className="flex">
-        <p className="text-3xl m-auto">fgdfgsdfgs </p>
+      <Navbar />
+      <HeroSection />
+      <SectionTwo />
+      <div className="h-max relative">
+        <Marquee variant={1} />
+        <Marquee variant={2} />
       </div>
-      <Works2 />
-      <Works />
+      <Team />
+      <FabSocial />
     </>
   );
 }

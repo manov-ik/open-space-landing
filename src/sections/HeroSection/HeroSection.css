@@ -1,0 +1,25 @@
+#home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: max-content;
+  place-content: center;
+  position: relative;
+}
+
+.content-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(10%, -70%);
+}
+
+.something {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.something h1 {
+  text-shadow: 0px 0px 10px #fff;
+}

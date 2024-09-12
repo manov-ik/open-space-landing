@@ -1,0 +1,4 @@
+.menu-item.active,
+.menu-item:hover {
+  text-shadow: 0px 0px 12px #fff;
+}
