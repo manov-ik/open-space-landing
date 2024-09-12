@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import lock from '../../assets/lock.glb';
-import './HeroSection.css';
+import { useEffect, useRef } from "react";
+import * as THREE from "three";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import lock from "../../assets/lock.glb";
+import "./HeroSection.css";
 
 const HeroSection = () => {
   const sceneRef = useRef();
@@ -13,7 +13,7 @@ const HeroSection = () => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
-      (window.innerWidth / 2) / window.innerHeight,
+      window.innerWidth / 2 / window.innerHeight,
       0.1,
       1000
     );
@@ -55,7 +55,7 @@ const HeroSection = () => {
       },
       undefined,
       (error) => {
-        console.error('An error occurred loading the model', error);
+        console.error("An error occurred loading the model", error);
       }
     );
 
@@ -80,18 +80,18 @@ const HeroSection = () => {
     animate();
 
     const handleResize = () => {
-      camera.aspect = (window.innerWidth / 2) / window.innerHeight;
+      camera.aspect = window.innerWidth / 2 / window.innerHeight;
       camera.updateProjectionMatrix();
       renderer.setSize(window.innerWidth / 2, window.innerHeight);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
       if (sceneRef.current) {
         sceneRef.current.removeChild(renderer.domElement);
       }
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -103,16 +103,23 @@ const HeroSection = () => {
         </div>
         <div className="content-container text-white">
           <div className="hero-content-heading-container h-20 flex items-center justify-center font-semibold">
-            <h1 className='text-4xl'>Connect. Create. Contribute.</h1>
+            <h1 className="text-4xl">Connect. Create. Contribute.</h1>
           </div>
           <div className="hero-content-content-container float-right w-96 text-right text-md font-thin">
             <p>
-              Step into a world where college students come together to spark innovation and build impactful products! Our platform is the perfect place to turn your ideas into reality while contributing to meaningful open-source projects. Whether you are working solo or teaming up with others, this is where your creativity speaks up. Jump in, collaborate, and make a difference together!
+              Step into a world where college students come together to spark
+              innovation and build impactful products! Our platform is the
+              perfect place to turn your ideas into reality while contributing
+              to meaningful open-source projects. Whether you are working solo
+              or teaming up with others, this is where your creativity speaks
+              up. Jump in, collaborate, and make a difference together!
             </p>
           </div>
         </div>
-        <div className='something'>
-          <h1 className='text-white text-6xl text-center'>We love open-source</h1>
+        <div className="something">
+          <h1 className="text-white text-6xl text-center">
+            We love open-source
+          </h1>
         </div>
       </section>
     </>
