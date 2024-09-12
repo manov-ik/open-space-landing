@@ -5,6 +5,8 @@ import SectionTwo from "./sections/SectionTwo/SectionTwo";
 import Marquee from "./components/Marquee/Marquee";
 import FabSocial from "./components/FabSocial/FabSocial";
 import Team from "./sections/Team/Team";
+import P1Slide from "./components/slide/p1_slide";
+import P2Slide from "./components/slide/p2_slide";
 
 function App() {
   return (
@@ -12,10 +14,8 @@ function App() {
       <Navbar />
       <HeroSection />
       <SectionTwo />
-      <div className="h-max relative">
-        <Marquee variant={1} />
-        <Marquee variant={2} />
-      </div>
+      <P1Slide />
+      <P2Slide />
       <Team />
       <FabSocial />
     </>
