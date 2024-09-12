@@ -6,6 +6,10 @@ body{
     @apply bg-black;
 }
 
+* {
+  font-family: "Open Sans", sans-serif;;
+}
+
 *::-webkit-scrollbar {
   display: none;
 }
