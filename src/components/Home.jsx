@@ -3,8 +3,7 @@ import { Canvas, useFrame, useLoader, useThree } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls, Center } from "@react-three/drei";
 import * as THREE from "three";
-import lock from "../../assets/lock.glb";
-import "./HeroSection.css";
+import lock from "../assets/lock.glb";
 
 function Model() {
   const gltf = useLoader(GLTFLoader, lock);
@@ -32,33 +31,29 @@ function Model() {
   return <primitive object={gltf.scene} ref={modelRef} />;
 }
 
-function HeroSection() {
+function Home() {
   return (
     <>
-      {/* Better than giving margin-top */}
-      <br />
-      <br />
-      <br />
-      <section id="home">
-        <div
-          className="three-d-model-container"
-          style={{ width: "100%", height: "calc(100vh - 100px)" }}
-        >
-          <Canvas camera={{ position: [0, 0, 50], fov: 50 }}>
-            <ambientLight intensity={0.7} />
-            <directionalLight intensity={0.8} position={[1, 1, 1]} />
-            {/* <Center> */}
-            <Model />
-            {/* </Center> */}
-            <OrbitControls />
-          </Canvas>
-        </div>
-        <div className="text-white flex flex-col">
-          <div className="my-5 bg-slate-300">
-            <h1 className="text-2xl ">Connect. Create. Contribute.</h1>
+      <div className="flex w-[80%] h-[80vh] m-auto">
+        <div className="w-[100%] flex justify-between  mt-[25vh] mx-auto">
+          <div className=" m-auto ml-0 w-[50%] h-full 100">
+            <div className="h-[60vh]">
+              <Canvas camera={{ position: [0, 0, 50], fov: 50 }}>
+                <ambientLight intensity={0.7} />
+                <directionalLight intensity={0.8} position={[1, 1, 1]} />
+                {/* <Center> */}
+                <Model />
+                {/* </Center> */}
+                <OrbitControls />
+              </Canvas>
+            </div>
           </div>
-          <div className="hero-content-content-container float-right text-right text-md font-thin">
-            <p className="max-w-[70%]">
+
+          <div className=" m-auto mr-0 flex flex-col items-end w-[50%]">
+            <div className="text-white text-4xl text-right font-semibold">
+              Connect. Create. Contribute.
+            </div>
+            <p className="text-right text-xl mt-3 w-[80%] text-white font-light">
               Step into a world where college students come together to spark
               innovation and build impactful products! Our platform is the
               perfect place to turn your ideas into reality while contributing
@@ -68,25 +63,8 @@ function HeroSection() {
             </p>
           </div>
         </div>
-      </section>
-      <div className="something">
-        <h1 className="text-white text-6xl text-center">We love open-source</h1>
       </div>
     </>
   );
 }
-
-export default HeroSection;
-
-<div className="  ">
-  <div className="h-[60vh]">
-    <Canvas camera={{ position: [0, 0, 50], fov: 50 }}>
-      <ambientLight intensity={0.7} />
-      <directionalLight intensity={0.8} position={[1, 1, 1]} />
-      {/* <Center> */}
-      <Model />
-      {/* </Center> */}
-      <OrbitControls />
-    </Canvas>
-  </div>
-</div>;
+export default Home;

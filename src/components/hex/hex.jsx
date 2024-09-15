@@ -69,7 +69,7 @@ const PolygonGraph = () => {
   return (
     <div className="flex items-center justify-center min-h-screen ">
       <div
-        className="w-64 h-64"
+        className="w-[450px] h-[450px] ml-40"
         style={{
           transform: `translate(${translateX}px, ${translateY}px)`, // Apply CSS translation
         }}
