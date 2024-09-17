@@ -1,8 +1,9 @@
 import { div } from "three/webgpu";
 import github_svg from "../assets_c/github.svg";
 import insta_svg from "../assets_c/insta.svg";
+import linkedin_svg from "../assets_c/LinkedIn.svg";
 
-const SocialCard = ({ imageSrc, title, github, insta }) => {
+const SocialCard = ({ imageSrc, title, linkedin, insta }) => {
   return (
     <div
       className="w-56  rounded-2xl max-mobile:w-40 max-laptop:w-48
@@ -23,10 +24,10 @@ const SocialCard = ({ imageSrc, title, github, insta }) => {
           {title}
         </div>
         <div className="flex flex-row text-white items-center pr-3">
-          <a href={github}>
+          <a href={linkedin}>
             <img
-              src={github_svg}
-              alt="github"
+              src={linkedin_svg}
+              alt="linkedin"
               className="h-6 mr-3 max-mobile:h-4 max-laptop:h-5 "
             />
           </a>

@@ -25,7 +25,7 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={harish}
             title="Harish"
-            github="https://github.com/harish-ps"
+            linkedin=""
             insta="https://www.instagram.com/literally_harish/"
           />
         </div>
@@ -33,7 +33,7 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={jeyanth}
             title="Jeyanth"
-            github="https://github.com/jeyanth-jr"
+            linkedin="https://www.linkedin.com/in/jeyanth-v/"
             insta="https://www.instagram.com/jeyanth__jr/"
           />
         </div>
@@ -41,7 +41,7 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={rithesh}
             title="Rithesh"
-            github="https://github.com/Raxen001"
+            linkedin="https://www.linkedin.com/in/rithesh-s-05617b22a/"
             insta="https://www.instagram.com/raxen001/"
           />
         </div>
@@ -49,7 +49,7 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={swayam}
             title="Swayam"
-            github="https://github.com/swayammedia"
+            linkedin="https://www.linkedin.com/in/devswayam/"
             insta="https://www.instagram.com/swayam_ceo/"
           />
         </div>
@@ -57,14 +57,14 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={noumaan}
             title="Noumaan"
-            github="https://github.com/NoumaanAhamed"
+            linkedin="https://www.linkedin.com/in/noumaanahamed/"
             insta="https://www.instagram.com/ft.noumaan/"
           />
         </div>
       </div>
 
       <div className="text-white m-auto w-full flex items-center justify-center text-3xl ">
-        Team And Club
+        Team And Club Representatives
       </div>
 
       <div className="flex w-[90%] m-auto flex-wrap justify-center mt-5 max-laptop:w-[90%] max-mobile:w-[90%]">
@@ -72,35 +72,50 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={manovikram}
             title="Manovikram"
-            github="https://github.com/manov-ik"
+            linkedin="https://www.linkedin.com/in/manovikramk/"
             insta="https://www.instagram.com/manov_ik/"
           />
         </div>
         <div className=" mx-5 mb-5 max-mobile:mx-auto">
-          <SocialCard imageSrc={hursun} title="Hursun" github="" insta="" />
+          <SocialCard
+            imageSrc={hursun}
+            title="Hursun"
+            linkedin="https://www.linkedin.com/in/hursun-ss-377659233/"
+            insta="https://www.instagram.com/__hursun_ss__"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={rakhul} title="Rakhul" github="" insta="" />
+          <SocialCard imageSrc={rakhul} title="Rakhul" linkedin="" insta="" />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={vishal} title="Vishal" github="" insta="" />
+          <SocialCard
+            imageSrc={vishal}
+            title="Vishal"
+            linkedin="https://www.linkedin.com/in/vishaal-k-783894202/"
+            insta="https://www.instagram.com/vishaal_19_fl/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
           <SocialCard
             imageSrc={vaideeshswaren}
             title="Vaideeshswaren"
-            github=""
-            insta=""
+            linkedin="https://www.linkedin.com/in/vaideeshwaran-r-1b4375252/"
+            insta="https://www.instagram.com/vaidesh._/"
           />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={prajein} title="Prajein" github="" insta="" />
+          <SocialCard
+            imageSrc={prajein}
+            title="Prajein"
+            linkedin="https://www.linkedin.com/in/prajeinck/"
+            insta="https://www.instagram.com/prajeinck/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
           <SocialCard
             imageSrc={openspaceh}
             title="<your_name>"
-            github=""
+            linkedin=""
             insta=""
           />
         </div>
