@@ -10,7 +10,7 @@ const FabSocial = () => {
         border-solid border-[#ffffff79] border-r border-b
         bg-[#ffffff1a] flex my-4"
       >
-        <a href="">
+        <a href="https://github.com/OpenSpaceREC">
           <img src={github_svg} alt="github" className="h-8 m-auto  " />
         </a>
       </div>
@@ -20,7 +20,7 @@ const FabSocial = () => {
         border-solid border-[#ffffff79] border-r border-b
         bg-[#ffffff1a] flex mt-4"
       >
-        <a href="">
+        <a href="https://www.instagram.com/openspace_rec/">
           <img src={insta_svg} alt="insta" className="h-8 m-auto  " />
         </a>
       </div>

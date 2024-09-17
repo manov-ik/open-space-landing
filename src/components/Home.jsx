@@ -34,14 +34,14 @@ function Model() {
 function Home() {
   return (
     <>
-      <div className="flex w-[80%] h-[90vh] m-auto max-mobile:w-[100%] ">
+      <div className="flex w-[100%] h-[90vh] m-auto max-mobile:w-[100%] ">
         <div
           className="w-[100%]  flex justify-between  mt-[25vh] mx-auto 
         max-mobile:flex-col  max-mobile:mt-[18vh] "
         >
           <div
             className=" m-auto ml-0 w-[50%] h-full 
-          max-mobile:w-[100%] max-mobile:ml-auto "
+          max-mobile:w-[100%] max-mobile:ml-auto  "
           >
             <div className="h-full ">
               <Canvas camera={{ position: [0, 0, 50], fov: 50 }}>
@@ -56,7 +56,7 @@ function Home() {
           </div>
 
           <div
-            className=" m-auto mr-0 flex flex-col items-end w-[50%] 
+            className=" m-auto flex flex-col items-end w-[40%] mr-[10%] 
           max-mobile:w-[100%]  max-mobile:items-center
            max-mobile:mr-auto "
           >

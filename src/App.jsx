@@ -5,6 +5,7 @@ import P1Slide from "./components/slide/p1_slide";
 import P2Slide from "./components/slide/p2_slide";
 import Navbar from "./components/NavBar";
 import Home from "./components/Home";
+import HomeC from "./components/HomeC";
 import Motive from "./components/Motive";
 import Social from "./components/social";
 import GlowingBlob from "./components/GlowingBlob";
@@ -14,7 +15,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <HomeC />
+
       <Motive />
       <P1Slide />
       <P2Slide />

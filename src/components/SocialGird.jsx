@@ -22,19 +22,44 @@ const SocialGird = () => {
 
       <div className="flex w-[90%] m-auto flex-wrap justify-center mt-5 max-laptop:w-[90%] max-mobile:w-[90%]">
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={harish} title="Harish" github="" insta="" />
+          <SocialCard
+            imageSrc={harish}
+            title="Harish"
+            github="https://github.com/harish-ps"
+            insta="https://www.instagram.com/literally_harish/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={jeyanth} title="Jeyanth" github="" insta="" />
+          <SocialCard
+            imageSrc={jeyanth}
+            title="Jeyanth"
+            github="https://github.com/jeyanth-jr"
+            insta="https://www.instagram.com/jeyanth__jr/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={rithesh} title="Rithesh" github="" insta="" />
+          <SocialCard
+            imageSrc={rithesh}
+            title="Rithesh"
+            github="https://github.com/Raxen001"
+            insta="https://www.instagram.com/raxen001/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={swayam} title="Swayam" github="" insta="" />
+          <SocialCard
+            imageSrc={swayam}
+            title="Swayam"
+            github="https://github.com/swayammedia"
+            insta="https://www.instagram.com/swayam_ceo/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={noumaan} title="Noumaan" github="" insta="" />
+          <SocialCard
+            imageSrc={noumaan}
+            title="Noumaan"
+            github="https://github.com/NoumaanAhamed"
+            insta="https://www.instagram.com/ft.noumaan/"
+          />
         </div>
       </div>
 
@@ -47,8 +72,8 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={manovikram}
             title="Manovikram"
-            github=""
-            insta=""
+            github="https://github.com/manov-ik"
+            insta="https://www.instagram.com/manov_ik/"
           />
         </div>
         <div className=" mx-5 mb-5 max-mobile:mx-auto">
