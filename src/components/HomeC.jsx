@@ -71,7 +71,25 @@ const HomeC = () => {
 
   return (
     <>
-      <div className="flex w-[100%] h-[90vh] m-auto max-mobile:w-[100%]">
+      <div className="flex flex-col items-center w-[100%] ">
+        <div className=" text-slate-200 my-auto text-9xl mt-48 text-center max-mobile:mt-42 max-mobile:text-5xl max-laptop:text-7xl max-desktop:text-8xl font-semibold">
+          Launching Soon!
+        </div>
+        <div className=" text-slate-200 my-auto mt-5 max-mobile:mt-3 text-5xl text-center max-mobile:text-xl max-laptop:text-3xl max-desktop:text-3xl">
+          Now hiring developers!{"  "}
+          <a
+            className="text-slate-200 my-auto mt-5 max-mobile:mt-3 text-5xl text-center max-mobile:text-xl max-laptop:text-3xl max-desktop:text-3xl underline underline-offset-4 "
+            href="https://www.instagram.com/openspace_rec/"
+          >
+            Join us!
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="home"
+        className="flex w-[100%] h-[90vh] -mt-24  m-auto max-mobile:w-[100%]"
+      >
         <div className="w-[100%] flex justify-between mt-[25vh] mx-auto max-mobile:flex-col max-mobile:mt-[18vh]">
           <div className="m-auto ml-0 w-[50%] h-full max-mobile:w-[100%] max-mobile:ml-auto">
             <div className="h-full">

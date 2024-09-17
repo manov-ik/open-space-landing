@@ -25,7 +25,7 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={harish}
             title="Harish"
-            linkedin=""
+            linkedin="https://www.linkedin.com/in/harish-p-s-98a306249/"
             insta="https://www.instagram.com/literally_harish/"
           />
         </div>
@@ -85,7 +85,12 @@ const SocialGird = () => {
           />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
-          <SocialCard imageSrc={rakhul} title="Rakhul" linkedin="" insta="" />
+          <SocialCard
+            imageSrc={rakhul}
+            title="Rakhul"
+            linkedin="https://www.linkedin.com/in/rakhul/"
+            insta="https://www.instagram.com/r.a.k.h.u.l/"
+          />
         </div>
         <div className=" mx-5 mb-5  max-mobile:mx-auto">
           <SocialCard
@@ -115,8 +120,8 @@ const SocialGird = () => {
           <SocialCard
             imageSrc={openspaceh}
             title="<your_name>"
-            linkedin=""
-            insta=""
+            linkedin="#home"
+            insta="https://www.instagram.com/openspace_rec/"
           />
         </div>
       </div>

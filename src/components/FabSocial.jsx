@@ -1,5 +1,5 @@
-import github_svg from "../../assets_c/github.svg";
-import insta_svg from "../../assets_c/insta.svg";
+import github_svg from "../assets_c/github.svg";
+import insta_svg from "../assets_c/insta.svg";
 
 const FabSocial = () => {
   return (
